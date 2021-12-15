@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ingester
+*.xml
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# vscode
+.vscode
+/.vscode/
+/mail-sender-api
+*.DS_Store
+.idea
+
+.env
+
+/vendor
+*.zip
+
+# All binaries
+*_bin
+main
+
+/builds
+*.txt
+*.csv
+*.xls
+*.xlsx
+
+ads.json
+stats.json
+/migrator-app
+
+script_deploy_all_crms.sh
