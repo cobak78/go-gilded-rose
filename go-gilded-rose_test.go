@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/v2pro/plz/test/testify/assert"
 	"testing"
+
+	"github.com/v2pro/plz/test/testify/assert"
 )
 
 func Test_UpdateQuality(t *testing.T) {
